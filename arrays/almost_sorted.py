@@ -20,5 +20,4 @@ for i in range(1, len(rev_sorted)):
     if rev_sorted[i-1] == True and rev_sorted[i] == True:
         start_index = min(start_index, i-1)
 
-
 print(start_index)
